@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - fCC Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="navbar">
+    <header><h1>Semantic HTML<h1></header>
+    <a class="nav-link" href="#what's_semantic_html?">What's Semantic HTML?</a>
+    <a class="nav-link" href="#element_placement">Element Placement</a>
+    <a class="nav-link" href="#embedding_media">Embedding Media</a>
+    <a class="nav-link" href="#&lt;figure&gt;_and_&lt;figcaption&gt;"><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code></a>
+    <a class="nav-link" href="#&lt;section&gt;_and_&lt;article&gt;"><code>&lt;section&gt;</code> and <code>&lt;article&gt;</code></a>
+    <a class="nav-link" href="#&lt;aside&gt;_element"><code>&lt;aside&gt;</code> Element</a>
+  </nav>
+<main id="main-doc">
+  <section class="main-section" id="what's_semantic_html?">
+    <header><h3>What's Semantic HTML?</h3></header>
+    <p>Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes in it.</p><p>An element such as was used as a general-purpose element to create things from headers to footers to articles.</p><p>With Semantic HTML we were introduced to elements that tell developers and browsers exactly what it does and what content should go in it.</p>
+  </section>
+  <section class="main-section" id="element_placement">
+    <header><h3>Element Placement</h3></header>
+    <p>Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name of that element.</p><p>Some of these elements are <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</p><p><ul><li><code>&lt;header&gt;</code> describes the content at the top of the page <code>&lt;body&gt;</code>. It may include a logo, navigational links or a search bar.</li><li><code>&lt;nav&gt;</code> encapsulates the page’s navigational links. It is often placed inside the <code>&lt;header&gt;</code> or <code>&lt;footer&gt;</code>.</li><li><code>&lt;main&gt;</code> encapsulates the main content of a page between the header/navigation and the footer areas.</li><li><code>&lt;footer&gt;</code> includes the page’s footer content at the bottom of the <code>&lt;body&gt;</code>.</li></ul></p>
+  </section>
+  <section class="main-section" id="embedding_media">
+    <header><h3>Embedding Media</h3></header>
+    <p>Semantic HTML introduces us to <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> and <code>&lt;embed&gt;</code>.</p><p><ul><li><code>&lt;video&gt;</code> allows us to add videos to our website.</li> <li><code>&lt;audio&gt;</code> allows us to implement audio into our website.<li> <code>&lt;embed&gt;</code> can be used to implement any type of media.</li></ul></p><p>These elements are universal in that they all use the src attribute to link the source of the content.</p><p><code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> requires a closing tag while <code>&lt;embed&gt;</code> is a self-closing tag.</p>
+  </section>
+  <section class="main-section" id="&lt;figure&gt;_and_&lt;figcaption&gt;">
+    <header><h3><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code></h3></header>
+    <p><ul><li>The <code>&lt;figure&gt;</code> element is used to encapsulate media such as an image, diagram. or code snippet.</li><li>The <code>&lt;figcaption&gt; </code> element is used to describe the media encapsulated within the <code>&lt;figure&gt;</code> element.</li></ul></p><p>Developers will normally use <code>&lt;figcaption&gt;</code> within the <code>&lt;figure&gt;</code> element to group the media and description. This way, if a developer decides to change the position of the media, the description will follow along with it.</p>
+  </section>
+  <section class="main-section" id="&lt;section&gt;_and_&lt;article&gt;">
+    <header><h3><code>&lt;section&gt;</code> and <code>&lt;article&gt;</code></h3></header>
+    <p><ul><li><code>&lt;section&gt;</code> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</li><li><code>&lt;article&gt;</code> holds content that makes sense on its own such as articles, blogs, and comments.</li></ul></p><p>Generally developers will use <code>&lt;section&gt;</code> to define a theme for the webpage and use <code>&lt;article&gt;</code> to write independent content for that theme. This does not mean that <code>&lt;article&gt;</code> has to be used with <code>&lt;section&gt;</code>.</p>
+  </section>
+  <section class="main-section" id="&lt;aside&gt;_element">
+    <header><h3><code>&lt;aside&gt;</code> Element</h3></header>
+    <p>The <code>&lt;aside&gt;</code> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content.</p><p>Usually, this information would be in a sidebar or a location where it doesn’t obstruct the main piece of content. An example of this would be an article that discusses how to take care of a dog and next to the article an ad would appear advertising a dog grooming product.</p>
+  </section>
+</main>
+<!-- partial -->
+</body>
+</html>
